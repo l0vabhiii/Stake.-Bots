@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nobii Stake Bot</title>
+  <style>
+    body {
+      background: #101010;
+      color: #00ffcc;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .prediction {
+      margin-top: 50px;
+      font-size: 24px;
+      padding: 20px;
+      background: #1e1e1e;
+      border-radius: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <h1>🤖 Nobii Stake Prediction Bot</h1>
+  <div class="prediction">
+    🔥 Next Winning Tile: <strong>Corner Right</strong>  
+    💸 Confidence: 97%  
+    ⛏️ Game: Mines  
+  </div>
+  <p style="margin-top: 40px;">Demo use only. Contact on WhatsApp to unlock Pro version.</p>
+</body>
+</html>
