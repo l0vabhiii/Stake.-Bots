@@ -1,0 +1,22 @@
+function login() {
+  const username = document.getElementById('stake').value;
+  const gmail = document.getElementById('gmail').value;
+
+  if (username === "MIDOWOWNER") {
+    alert("✅ Access Granted: Owner");
+    window.location.href = "bot.html";
+    return;
+  }
+
+  let count = localStorage.getItem("demoCount") || 0;
+  if (count >= 5) {
+    alert("❌ Demo limit reached.\nContact on WhatsApp to unlock full version.");
+    window.location.href = "https://wa.me/918793727113";
+    return;
+  }
+
+  count++;
+  localStorage.setItem("demoCount", count);
+  alert("✅ Demo Access Granted: " + count + " / 5");
+  window.location.href = "bot.html";
+}
