@@ -1,0 +1,22 @@
+function login() {
+  const username = document.getElementById('stake').value;
+  const gmail = document.getElementById('gmail').value;
+
+  if (username === "MIDOWOWNER") {
+    alert("✅ Access Granted: Owner");
+    window.location.href = "dashboard.html";
+    return;
+  }
+
+  let count = localStorage.getItem("demoCount") || 0;
+  if (count >= 5) {
+    alert("❌ Demo limit over.\nWhatsApp unlock now.");
+    window.location.href = "https://wa.me/918793727113";
+    return;
+  }
+
+  count++;
+  localStorage.setItem("demoCount", count);
+  alert("✅ Access " + count + "/5");
+  window.location.href = "dashboard.html";
+}
