@@ -1,0 +1,40 @@
+body {
+  background: #0d0d0d;
+  color: #00ffcc;
+  font-family: sans-serif;
+  text-align: center;
+}
+.login-container {
+  margin-top: 100px;
+}
+input, button {
+  padding: 12px;
+  margin: 8px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+.bot-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+.bot-grid a {
+  background: #1a1a1a;
+  padding: 15px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #00ffcc;
+  font-size: 18px;
+  border: 1px solid #00ffcc;
+}
+.prediction-box {
+  margin-top: 60px;
+  padding: 30px;
+  background: #1f1f1f;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 22px;
+}
