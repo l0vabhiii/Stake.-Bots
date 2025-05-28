@@ -1,0 +1,26 @@
+// Simple Bot Login Script (HTML+JS)
+function login() {
+  let username = document.getElementById('stake').value;
+  let gmail = document.getElementById('gmail').value;
+
+  // Owner Bypass
+  if (username === "MIDOWOWNER") {
+    alert("Access Granted: Owner");
+    window.location.href = "bot.html";
+    return;
+  }
+
+  // Demo Use Limit Logic (5 users or 5 attempts)
+  let count = localStorage.getItem("demoCount") || 0;
+  if (count >= 5) {
+    alert("Demo limit reached. Contact on WhatsApp to unlock full version.");
+    window.location.href = "https://wa.me/918793727113";
+    return;
+  }
+
+  // Allow demo access
+  count++;
+  localStorage.setItem("demoCount", count);
+  alert("Demo Access Granted: " + count + " / 5");
+  window.location.href = "bot.html";
+}
