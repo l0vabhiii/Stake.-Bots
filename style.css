@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  color: #00ffcc;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.logo {
+  width: 120px;
+  margin-top: 20px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  background-color: #1e1e1e;
+  border: 1px solid #00ffcc;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+.download-btn {
+  background-color: #00ffcc;
+  color: #000;
+}
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+video {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 20px;
+  border: 2px solid #00ffcc;
+}
