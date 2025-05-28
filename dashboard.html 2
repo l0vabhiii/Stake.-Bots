@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nobii Bot Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🤖 Nobii Bots</h1>
+  <div class="bot-grid">
+    <a href="crash.html">📉 Crash Bot</a>
+    <a href="mines.html">💣 Mines Bot</a>
+    <a href="hilo.html">⬆️⬇️ HiLo Bot</a>
+    <a href="plinko.html">🔽 Plinko Bot</a>
+    <a href="dice.html">🎲 Dice Bot</a>
+  </div>
+</body>
+</html>
